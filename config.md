@@ -84,9 +84,7 @@ options: in the fstab format [https://wiki.archlinux.org/index.php/Fstab](https:
     "mounts": [
         {
             "type": "ntfs",
-            "source": "\\?\Volume\{2eca078d-5cbc-43d3-aff8-7e8511f60d0e}\
-
-",
+            "source": "\\?\Volume\{2eca078d-5cbc-43d3-aff8-7e8511f60d0e}\",
             "destination": "C:\Users\crosbymichael\My Fancy Mount Point\",
             "options": ""
         }
@@ -132,7 +130,7 @@ The processes to be created inside the container are specified in a processes ar
 
 The command to start a process is specified in an array of args. It will be run in the working directory specified in the string cwd.
 
-Environment variables are specified is an array called env.
+Environment variables are specified in an array called env.
 
 Elements in the array are specified as Strings in the form "KEY=value"
 
